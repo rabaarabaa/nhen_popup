@@ -1,0 +1,20 @@
+{
+    "manifest_version" : 2,
+    "name" : "NHentai Magic Number",
+    "description" : "For your basic needs.",
+    "version" : "0.1",
+    "permissions" : [
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action" : {
+        "default_icon" : "nhen.png",
+        "default_popup" : "popup.html",
+        "default_title" : "Enjoy."
+    },
+    "icons" : {
+        "16" : "nhen16.png",
+        "48" : "nhen48.png",
+        "128" : "nhen128.png"
+    }
+}
